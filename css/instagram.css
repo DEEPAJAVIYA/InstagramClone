@@ -1,0 +1,1160 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.home {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+header {
+  widows: 100vw;
+  height: 26vh;
+}
+
+header .heading {
+  width: 100vw;
+  height: 8vh;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+}
+
+header .heading ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .heading ul li {
+  list-style: none;
+  text-align: center;
+  font-family: 'Redressed', cursive;
+  font-weight: bold;
+}
+
+header .heading ul li i {
+  font-size: 2.5rem;
+}
+
+header .stories {
+  width: 100vw;
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .stories .story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 9vw;
+  height: 17vh;
+  padding-top: 1.5rem;
+}
+
+header .stories .story #dp {
+  height: 14vh;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .stories .story #dp img {
+  width: 6vw;
+  height: 11vh;
+  padding: 0.1rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+header .stories .story #your-name {
+  height: 3vh;
+  font-size: 1.1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.main-chat {
+  width: 100vw;
+  height: auto;
+  display: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-chat .C-symbols {
+  height: 12vh;
+}
+
+.main-chat .C-symbols ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-chat .C-symbols ul li {
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.main-chat .C-symbols ul li a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.main-chat .C-search {
+  font-size: 1.7rem;
+  background-color: #e9e3e3;
+  width: 95vw;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+  border-radius: 1.2rem;
+}
+
+.main-chat .C-search input {
+  width: 90vw;
+  height: 5vh;
+  padding-left: 1rem;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  background-color: #e9e3e3;
+  font-size: 1.4rem;
+}
+
+.main-chat .C-search i {
+  padding: 0.3rem;
+  padding-left: 1.7rem;
+  color: #615454;
+}
+
+.main-chat .messages {
+  width: 100vw;
+  height: 10vh;
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1.6rem;
+}
+
+.main-chat .chat {
+  width: 100vw;
+  height: 7.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.7rem;
+  margin-left: 1.6rem;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #b9b7b7;
+}
+
+.main-chat .chat .C-DP img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+
+.main-chat .chat .C-message {
+  padding-top: 0.8rem;
+  padding-left: 1rem;
+}
+
+.main-chat .chat .C-message p {
+  width: 50vw;
+}
+
+.main-chat .chat .camera {
+  padding-top: 1.2rem;
+  padding-left: 35rem;
+  font-size: 2rem;
+}
+
+.post-section .post {
+  width: 100vw;
+  height: 72vh;
+}
+
+.post-section .post .first-name {
+  padding-top: 1.5rem;
+  height: 14vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-section .post .first-name ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-section .post .first-name ul li {
+  list-style: none;
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+}
+
+.post-section .post .first-name ul li img {
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 0.1rem;
+}
+
+.post-section .post .first-name ul li ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.post-section .post .first-name ul li ul li {
+  list-style: none;
+}
+
+.post-section .post .pic {
+  width: 100vw;
+  height: 45vh;
+}
+
+.post-section .post .pic img {
+  width: 20vw;
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: 0.2rem 0.1rem 0.5rem grey, -0.1rem 0.1rem 0.5rem grey, 0.1rem -0.1rem 0.2rem grey, -0.1rem 0.1rem 0.1rem grey;
+          box-shadow: 0.2rem 0.1rem 0.5rem grey, -0.1rem 0.1rem 0.5rem grey, 0.1rem -0.1rem 0.2rem grey, -0.1rem 0.1rem 0.1rem grey;
+}
+
+.post-section .post .like-content {
+  width: 100vw;
+  height: 13vh;
+}
+
+.post-section .post .like-content .like {
+  height: 5vh;
+}
+
+.post-section .post .like-content .like ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-section .post .like-content .like ul li {
+  list-style: none;
+  font-size: 1.7rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+}
+
+.post-section .post .like-content .liked-by {
+  height: 5vh;
+  font-size: 1.3rem;
+}
+
+.post-section .post .like-content .liked-by ul {
+  padding-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.post-section .post .like-content .liked-by ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.post-section .post .like-content .liked-by ul li img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.post-section .post .like-content .liked-by ul li span {
+  font-weight: bold;
+}
+
+.post-section .post .like-content .time {
+  height: 3vh;
+  padding-left: 1rem;
+}
+
+.post-section .post .like-content .time p {
+  padding-top: 0.3rem;
+  font-size: 1rem;
+}
+
+.post-section .post .like-content .time p span {
+  margin-left: 80rem;
+  font-size: 0.9rem;
+}
+
+.main-search {
+  width: 100vw;
+  display: none;
+}
+
+.main-search .search-container {
+  width: 100vw;
+  height: 10vh;
+}
+
+.main-search .search-container .searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+.main-search .search-container .searchbar .search {
+  font-size: 1.7rem;
+  background-color: #e9e3e3;
+  width: 88vw;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+  border-radius: 1.2rem;
+}
+
+.main-search .search-container .searchbar .search input {
+  width: 80vw;
+  height: 5vh;
+  padding-left: 1rem;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  background-color: #e9e3e3;
+  font-size: 1.4rem;
+}
+
+.main-search .search-container .searchbar .search i {
+  padding: 0.3rem;
+  padding-left: 1.7rem;
+  color: #615454;
+}
+
+.main-search .search-container .searchbar .QRCODE {
+  font-size: 2.5rem;
+  margin-left: 6.5rem;
+}
+
+.main-search .s-option {
+  width: 100vw;
+  height: 3vw;
+}
+
+.main-search .s-option ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-search .s-option ul li {
+  list-style: none;
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+}
+
+.main-search .s-option ul li a {
+  width: 7.5rem;
+  height: 4.5vh;
+  padding: 0.3rem;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  color: black;
+  border: 2px solid #bebdbd;
+  border-radius: 0.6rem;
+  background-color: #f8f8f8;
+}
+
+.main-search .post-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[5];
+      grid-template-columns: repeat(5, 2fr);
+}
+
+.main-search .post-container .post {
+  width: 19.5vw;
+  height: 24vh;
+  margin: 0.3rem;
+  background-color: burlywood;
+}
+
+.main-search .post-container .post img {
+  width: 19.5vw;
+  height: 24vh;
+}
+
+.main-search .post-container #item1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.main-search .post-container #item1 img {
+  width: 39.7vw;
+  height: 49.2vh;
+}
+
+.main-search .post-container #item7 {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.main-search .post-container #item7 img {
+  width: 19.5vw;
+  height: 49.2vh;
+}
+
+.main-search .post-container #item13 {
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.main-search .post-container #item13 img {
+  width: 39.5vw;
+  height: 24vh;
+}
+
+.main-search .post-container #item21 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 8;
+}
+
+.main-search .post-container #item21 img {
+  width: 19.5vw;
+  height: 49.2vh;
+}
+
+.main-search .post-container #item28 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 6;
+  -ms-grid-row: 7;
+      grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.main-search .post-container #item28 img {
+  width: 39.5vw;
+  height: 49.2vh;
+}
+
+.main-search .post-container #item37 {
+  -ms-grid-row: 10;
+      grid-row-start: 10;
+  grid-row-end: 11;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.main-search .post-container #item37 img {
+  width: 39.5vw;
+  height: 24vh;
+}
+
+.main-search .post-container #item44 {
+  -ms-grid-row: 11;
+      grid-row-start: 11;
+  grid-row-end: 13;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.main-search .post-container #item44 img {
+  width: 19.5vw;
+  height: 49.2vh;
+}
+
+.main-reels {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.main-reels .reels-heading {
+  height: 5vw;
+}
+
+.main-reels .reels-heading ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-reels .reels-heading ul li {
+  list-style: none;
+  font-size: 2.5rem;
+  padding: 0.6rem 1rem;
+}
+
+.main-reels .reels-heading ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-reels .reels {
+  width: 100vw;
+  height: 84vh;
+  position: absolute;
+}
+
+.main-reels .reels .reel {
+  width: 70.2vw;
+  height: 84vh;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.main-reels .reels .reel video {
+  width: 70vw;
+  height: 77vh;
+}
+
+.main-reels .reels .reel video source {
+  text-decoration: none;
+}
+
+.main-reels .reels .reel .R_option {
+  height: 6vh;
+  padding-top: 0.5rem;
+}
+
+.main-reels .reels .reel .R_option ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-reels .reels .reel .R_option ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.main-reels .reels .reel .R_option ul li i {
+  font-size: 1.8rem;
+  padding-left: 2rem;
+}
+
+.other-info {
+  width: 100vw;
+  font-family: sans-serif;
+  display: none;
+}
+
+.other-info .activity {
+  width: 100vw;
+  height: 15vh;
+}
+
+.other-info .activity h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #dddbdb;
+}
+
+.other-info .follow-request {
+  width: 100vw;
+  height: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.7rem;
+}
+
+.other-info .follow-request .FRDP {
+  padding-left: 1rem;
+}
+
+.other-info .follow-request .FRDP i {
+  font-size: 3rem;
+  border: 2px solid grey;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.other-info .follow-request .FR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 1rem;
+}
+
+.other-info .today,
+.other-info .yesterday {
+  width: 100vw;
+  height: 9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.other-info .today .etc,
+.other-info .yesterday .etc {
+  padding-top: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #c2b4b4;
+}
+
+.other-info .today .etc img,
+.other-info .yesterday .etc img {
+  width: 5vw;
+  height: 8vh;
+  border-radius: 50%;
+}
+
+.other-info .today .etc p,
+.other-info .yesterday .etc p {
+  padding-left: 1rem;
+}
+
+.other-info .this-week {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.other-info .this-week .extra .etc {
+  padding-top: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #c2bbbb;
+}
+
+.other-info .this-week .extra .etc img {
+  width: 5vw;
+  height: 8vh;
+  border-radius: 50%;
+}
+
+.other-info .this-week .extra .etc p {
+  padding-left: 1rem;
+}
+
+.other-info .this-week .extra .etc p button {
+  width: 8vw;
+  height: 4vh;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  outline: none;
+  color: white;
+  background-color: rgba(0, 97, 241, 0.829);
+}
+
+.your-profile {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.your-profile .YP-symbol {
+  width: 100vw;
+  height: 4vw;
+  padding-top: 1rem;
+}
+
+.your-profile .YP-symbol ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.your-profile .YP-symbol ul li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.your-profile .YP-symbol ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding-left: 0.5rem;
+}
+
+.your-profile .YP-symbol ul li a i {
+  font-size: 2rem;
+}
+
+.your-profile .YP-symbol ul li:hover .line {
+  display: block;
+}
+
+.your-profile .line {
+  width: 19vw;
+  height: 55.7vh;
+  display: none;
+  background-color: #43438f;
+  -webkit-transform: translate(-15rem, 0rem);
+          transform: translate(-15rem, 0rem);
+}
+
+.your-profile .line ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.your-profile .line ul li {
+  list-style: none;
+  padding: 1rem;
+  background-color: #eeeaea;
+}
+
+.your-profile .line ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  text-align: left;
+}
+
+.your-profile .line ul li a i {
+  padding-right: 0.5rem;
+}
+
+.your-profile .line ul li:hover {
+  background-color: #dbd4d4;
+}
+
+.your-profile .YP-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 17vh;
+}
+
+.your-profile .YP-info .YP-dp {
+  width: 15vw;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.your-profile .YP-info .YP-dp img {
+  width: 8vw;
+  height: 15vh;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.your-profile .YP-info .YP-PFF {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.your-profile .YP-info .YP-PFF .YP-post,
+.your-profile .YP-info .YP-PFF .YP-Followers,
+.your-profile .YP-info .YP-PFF .YP-Following {
+  width: 30vw;
+}
+
+.your-profile .YP-info .YP-PFF .YP-post ul a,
+.your-profile .YP-info .YP-PFF .YP-Followers ul a,
+.your-profile .YP-info .YP-PFF .YP-Following ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.your-profile .YP-info .YP-PFF .YP-post ul a li,
+.your-profile .YP-info .YP-PFF .YP-Followers ul a li,
+.your-profile .YP-info .YP-PFF .YP-Following ul a li {
+  list-style: none;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.your-profile .YP-Bio {
+  width: 100vw;
+  height: 23vh;
+}
+
+.your-profile .YP-Bio ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+
+.your-profile .YP-Bio ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  padding-top: 0.3rem;
+}
+
+.your-profile .YP-edit {
+  width: 100vw;
+  height: 8vh;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.your-profile .YP-edit button {
+  width: 90vw;
+  height: 5vh;
+  border-radius: 0.5rem;
+  outline-style: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.your-profile .YP-edit button:hover {
+  background-color: #d3cece;
+  color: red;
+}
+
+.your-profile .highlights {
+  width: 100vw;
+  height: 28vh;
+}
+
+.your-profile .highlights .highlight-info {
+  height: 13vh;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.your-profile .highlights .highlight-info h2 {
+  font-size: 1.8rem;
+}
+
+.your-profile .highlights .highlight-info h6 {
+  padding-top: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.your-profile .highlights .circles {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.your-profile .highlights .circles .C {
+  width: 6vw;
+  height: 5vw;
+  background-color: #b9b4b4;
+  border-radius: 50%;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.your-profile .highlights .circles .C i {
+  font-size: 1.8rem;
+  position: absolute;
+  left: 2.1rem;
+  top: 1.4rem;
+}
+
+.your-profile .highlights .circles .C span {
+  position: absolute;
+  top: 5rem;
+  right: -0.6rem;
+  font-size: 1.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.your-profile .highlights .circles #C2 {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.your-profile .highlights .circles #C2 span {
+  position: absolute;
+  top: 3.5rem;
+  right: -0.6rem;
+  font-size: 1.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.your-profile .YP-symbols {
+  width: 100vw;
+  height: 15vh;
+}
+
+.your-profile .YP-symbols ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 3.6rem;
+}
+
+.your-profile .YP-symbols ul li {
+  list-style: none;
+}
+
+.your-profile .YP-symbols ul li a {
+  text-decoration: none;
+}
+
+.your-profile .YP-symbols ul li a i {
+  font-size: 2.3rem;
+  color: black;
+}
+
+.your-profile .YP-posts {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+}
+
+.your-profile .YP-posts .my-post {
+  width: 20vw;
+}
+
+.your-profile .YP-posts .my-post img {
+  width: 20vw;
+  height: 25vh;
+}
+
+.your-profile .YP-posts #MP1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.your-profile .YP-posts #MP1 img {
+  width: 60vw;
+  height: 48vh;
+}
+
+.your-profile .YP-posts #MP2 {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.your-profile .YP-posts #MP2 img {
+  width: 20vw;
+  height: 48vh;
+}
+
+.your-profile .YP-posts #MP3 {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 6;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.your-profile .YP-posts #MP3 img {
+  width: 20vw;
+  height: 48vh;
+}
+
+.your-profile .YP-posts #MP4 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.your-profile .YP-posts #MP4 img {
+  width: 20vw;
+  height: 48vh;
+}
+
+.your-profile .YP-posts #MP5 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.your-profile .YP-posts #MP5 img {
+  width: 20vw;
+  height: 48vh;
+}
+
+footer {
+  width: 100vw;
+  height: 6vh;
+  border-top: 1px solid grey;
+  position: fixed;
+  bottom: 0;
+  background-color: honeydew;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 21rem;
+  padding-top: 0.3rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=instagram.css.map */
